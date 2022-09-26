@@ -1,0 +1,213 @@
+.main_nav0 {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    height: 100%;
+    width: 100%;
+
+}
+
+.main_nav {
+    background-color: rgb(194, 188, 188);
+    display: flex;
+    padding: 20px 280px;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+
+
+}
+
+
+
+.logosize {
+    width: 163px;
+    height: 60px;
+    margin-top: 5px;
+}
+
+#login_bg {
+    width: 110px;
+    height: 166px;
+    margin-bottom: -66px;
+}
+
+
+.menu_commonview a {
+    text-decoration: none;
+    margin-right: 44px;
+    font-weight: 600;
+    font-size: 18px;
+    color: black;
+    position: relative;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.menu_commonview a::after {
+    content: "";
+    position: absolute;
+    background-color: #FA5E01;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -6px;
+    transition: .3s;
+
+
+}
+
+.menu_commonview {
+    padding-top: 20px;
+}
+
+.menu_commonview a:hover {
+    color: black;
+}
+
+.flexiblenav {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+
+.menu_commonview a:hover::after {
+    width: 100%;
+
+}
+
+
+
+.hamburger {
+    font-size: 28px;
+    color: white;
+    display: none;
+}
+
+
+
+.sidebar1 {
+    background-color: white;
+    height: 100%;
+    width: 240px;
+    position: fixed;
+    box-shadow: 3px 3px 13px #00000038;
+    animation: mymove1 forwards;
+    animation-duration: 1s;
+    display: none;
+    top: 80px;
+
+}
+
+.sidebar1 ul {
+
+    padding-left: 70px;
+}
+
+.sidebar2 {
+    display: none;
+}
+
+
+
+@keyframes mymove1 {
+    from {
+        left: -300px;
+    }
+
+    to {
+        left: 0px;
+    }
+}
+
+.sidebar_menu {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+
+}
+
+.sidebar_menu a {
+    text-decoration: none;
+    margin-top: 18px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.sidebar_menu a::after {
+    content: "";
+    position: absolute;
+    background-color: #FA5E01;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -6px;
+    transition: .3s;
+
+}
+
+
+
+.sidebar_menu a:hover::after {
+    width: 100%;
+
+}
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .menu_commonview a {
+        font-size: 16px;
+        margin-right: 25px;
+    }
+
+    .logosize {
+        width: 120px;
+        height: auto;
+    }
+
+    .menu_commonview {
+        display: none;
+    }
+
+
+    .sidebar1 {
+
+        display: block;
+
+
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .main_nav {
+        padding: 10px 40px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .main_nav {
+        padding: 10px 20px;
+    }
+
+
+}
