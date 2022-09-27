@@ -36,9 +36,10 @@
     font-size: 80px;
     line-height: 90px;
     text-align: start;
-    margin-top: 139px;
+    margin-top: 120px;
     margin-left: 0;
-    padding-left: 0;
+    padding: 0;
+    margin-bottom: 0;
 }
 
 .carousel_caption2_style {
@@ -52,7 +53,9 @@
     font-size: 26px;
     line-height: 40px;
     text-align: start;
-    margin-top: 48px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    padding: 0;
 }
 
 .carousel_content_style1 {
@@ -74,6 +77,11 @@
     width: 237px;
     height: 70px;
     padding-top: 14px;
+    border: none;
+    justify-self: left;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
 
 .carousel_apply_button p {

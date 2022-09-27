@@ -1,0 +1,11 @@
+.applyadd_main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.applyadd_inner {
+    width: 900px;
+    height: 295px;
+    background-color: #FA5E01;
+}

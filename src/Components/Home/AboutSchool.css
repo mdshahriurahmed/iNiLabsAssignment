@@ -1,0 +1,59 @@
+.main_about_school {
+    margin-top: 200px;
+    display: flex;
+
+}
+
+.half_width_about {
+    width: 50%;
+}
+
+.top_line_style {
+    background-color: #FA5E01;
+    width: 150px;
+    height: 5px;
+
+}
+
+.left_content_div {
+    padding-left: 280px;
+    padding-right: 130px;
+
+}
+
+.about_headline {
+    font-weight: 700;
+    font-size: 60px;
+    text-align: left;
+}
+
+.about_content {
+    font-weight: 400;
+    font-size: 22px;
+    margin-top: 70px;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.learn_more_btn {
+    width: 246px;
+    height: 70px;
+    border: 2px solid #FA5E01;
+    background: #fff;
+    margin-top: 75px;
+    color: #FA5E01;
+}
+
+.learn_more_btn p {
+
+    font-weight: 600;
+    font-size: 24px;
+    padding-top: 14px;
+
+}
+
+.learn_more_btn:hover {
+    border: none;
+    background-color: #FA5E01;
+    color: #fff;
+}

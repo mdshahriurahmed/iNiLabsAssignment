@@ -1,0 +1,19 @@
+.common_div_style {
+    width: 480px;
+    height: 400px;
+    padding: 48px;
+}
+
+
+.bg-orange {
+    background-color: #FA5E01;
+    color: #ffffff;
+}
+
+.common_div_style p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+    margin-top: 62px;
+}

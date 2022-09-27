@@ -24,9 +24,9 @@ const Slider = () => {
                                 <p className='TRADITION_text_style'>A TRADITION SINCE 2002</p>
                                 <h1 className='carousel_caption_style'>Offering Bright <br /> Futures</h1>
                                 <p className='carousel_content_style'>iNiLabs School gradutes are styding in the world’s most prestigious universities.</p>
-                                <div className='carousel_apply_button'>
+                                <button className='carousel_apply_button'>
                                     <p>Apply Now</p>
-                                </div>
+                                </button>
                             </div>
                             <div className='half_width'>
                                 <div className='right_div'>
@@ -56,9 +56,9 @@ const Slider = () => {
                                 <p className='TRADITION_text_style'>A TRADITION SINCE 2002</p>
                                 <h1 className='carousel_caption_style'>Offering Bright <br /> Futures</h1>
                                 <p className='carousel_content_style'>iNiLabs School gradutes are styding in the world’s most prestigious universities.</p>
-                                <div className='carousel_apply_button'>
+                                <button className='carousel_apply_button'>
                                     <p>Apply Now</p>
-                                </div>
+                                </button>
                             </div>
                             <div className='half_width'>
                                 <div className='right_div'>
@@ -88,9 +88,9 @@ const Slider = () => {
                                 <p className='TRADITION_text_style'>A TRADITION SINCE 2002</p>
                                 <h1 className='carousel_caption_style'>Offering Bright <br /> Futures</h1>
                                 <p className='carousel_content_style'>iNiLabs School gradutes are styding in the world’s most prestigious universities.</p>
-                                <div className='carousel_apply_button'>
+                                <button className='carousel_apply_button'>
                                     <p>Apply Now</p>
-                                </div>
+                                </button>
                             </div>
                             <div className='half_width'>
                                 <div className='right_div'>
