@@ -1,0 +1,105 @@
+.slider_main {
+    margin-top: 60px;
+}
+
+.carousel-indicators .active {
+
+    background-color: #FA5E01;
+}
+
+.carousel_content {
+
+    height: 790px;
+    width: 100%;
+    display: flex;
+}
+
+.half_width {
+    width: 50%;
+}
+
+.small-line {
+    width: 34px;
+    background-color: white;
+    height: 2px;
+    margin-top: 192px;
+}
+
+.TRADITION_text_style {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: start;
+}
+
+.carousel_caption_style {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 90px;
+    text-align: start;
+    margin-top: 139px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.carousel_caption2_style {
+    font-weight: 700;
+    font-size: 44px;
+    text-align: start;
+}
+
+.carousel_content_style {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 40px;
+    text-align: start;
+    margin-top: 48px;
+}
+
+.carousel_content_style1 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: start;
+}
+
+.carousel_content_style2 {
+    font-weight: 700;
+    font-size: 14px;
+    text-align: start;
+}
+
+.carousel_apply_button {
+    background-color: #FA5E01;
+    color: #ffffff;
+    width: 237px;
+    height: 70px;
+    padding-top: 14px;
+}
+
+.carousel_apply_button p {
+    font-weight: 600;
+    font-size: 24px;
+
+
+}
+
+.carousel_apply_button:hover {
+    background-color: #ffffff;
+    color: #FA5E01;
+    border: 2px solid #FA5E01;
+    cursor: pointer;
+}
+
+
+
+.right_div {
+    margin-top: 362px;
+    display: flex;
+    justify-content: end;
+    margin-right: 100px;
+    text-align: start;
+}
+
+.playbtn_style {
+    margin-right: 24px;
+}
