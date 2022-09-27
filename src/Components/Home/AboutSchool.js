@@ -14,7 +14,7 @@ const AboutSchool = () => {
                     Bangladesh and United State of America.</p>
 
                 <button className='learn_more_btn'>
-                    <p>Learn More</p>
+                    Learn More
                 </button>
             </div>
             <div className='half_width_about'>

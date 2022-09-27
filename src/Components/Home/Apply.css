@@ -2,10 +2,44 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 200px;
 }
 
 .applyadd_inner {
     width: 900px;
     height: 295px;
     background-color: #FA5E01;
+    padding: 48px;
+}
+
+.applyadd_inner h2 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.applyadd_inner p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.apply_light_btn {
+    width: 199px;
+    height: 56px;
+    background-color: #fff;
+    color: #FA5E01;
+    border: none;
+    font-weight: 600;
+    font-size: 22px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.178)
+}
+
+.apply_light_btn:hover {
+    background-color: #FA5E01;
+    color: #fff;
+    box-shadow: 2px 2px 8px #b94400;
 }

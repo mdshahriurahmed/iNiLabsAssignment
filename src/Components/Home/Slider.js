@@ -25,7 +25,7 @@ const Slider = () => {
                                 <h1 className='carousel_caption_style'>Offering Bright <br /> Futures</h1>
                                 <p className='carousel_content_style'>iNiLabs School gradutes are styding in the world’s most prestigious universities.</p>
                                 <button className='carousel_apply_button'>
-                                    <p>Apply Now</p>
+                                    Apply Now
                                 </button>
                             </div>
                             <div className='half_width'>
@@ -57,7 +57,7 @@ const Slider = () => {
                                 <h1 className='carousel_caption_style'>Offering Bright <br /> Futures</h1>
                                 <p className='carousel_content_style'>iNiLabs School gradutes are styding in the world’s most prestigious universities.</p>
                                 <button className='carousel_apply_button'>
-                                    <p>Apply Now</p>
+                                    Apply Now
                                 </button>
                             </div>
                             <div className='half_width'>
@@ -89,7 +89,7 @@ const Slider = () => {
                                 <h1 className='carousel_caption_style'>Offering Bright <br /> Futures</h1>
                                 <p className='carousel_content_style'>iNiLabs School gradutes are styding in the world’s most prestigious universities.</p>
                                 <button className='carousel_apply_button'>
-                                    <p>Apply Now</p>
+                                    Apply Now
                                 </button>
                             </div>
                             <div className='half_width'>

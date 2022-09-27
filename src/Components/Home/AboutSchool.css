@@ -42,15 +42,12 @@
     background: #fff;
     margin-top: 75px;
     color: #FA5E01;
-}
-
-.learn_more_btn p {
-
     font-weight: 600;
     font-size: 24px;
-    padding-top: 14px;
 
 }
+
+
 
 .learn_more_btn:hover {
     border: none;
