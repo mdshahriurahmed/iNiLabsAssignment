@@ -8,7 +8,7 @@
 }
 
 .main_nav {
-    background-color: rgb(194, 188, 188);
+    background-color: #ffffff;
     display: flex;
     padding: 20px 280px;
     width: 100%;
@@ -33,6 +33,18 @@
     width: 110px;
     height: 166px;
     margin-bottom: -66px;
+    background-image: url(C:\projects\assignment\src\Media\loginbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_button_style {
+    font-size: 28px;
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -41,7 +53,6 @@
     margin-right: 44px;
     font-weight: 600;
     font-size: 18px;
-    color: black;
     position: relative;
     padding-left: 0;
     margin-left: 0;
@@ -86,6 +97,7 @@
     font-size: 28px;
     color: white;
     display: none;
+    margin-left: 15px;
 }
 
 
@@ -93,13 +105,13 @@
 .sidebar1 {
     background-color: white;
     height: 100%;
-    width: 240px;
+    width: 230px;
     position: fixed;
     box-shadow: 3px 3px 13px #00000038;
     animation: mymove1 forwards;
     animation-duration: 1s;
     display: none;
-    top: 80px;
+    top: 100px;
 
 }
 
@@ -136,10 +148,11 @@
     text-decoration: none;
     margin-top: 18px;
     text-decoration: none;
-    color: black;
     position: relative;
     padding-left: 0;
     margin-left: 0;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .sidebar_menu a::after {
@@ -162,14 +175,16 @@
 }
 
 
+.active-color {
+    color: #FA5E01;
+}
 
+.inactive-color {
+    color: black;
+}
 
 
 @media screen and (max-width: 1000px) {
-    .menu_commonview a {
-        font-size: 16px;
-        margin-right: 25px;
-    }
 
     .logosize {
         width: 120px;
@@ -184,15 +199,11 @@
     .sidebar1 {
 
         display: block;
-
-
     }
 
     .hamburger {
         display: block;
     }
-
-
 
 }
 
