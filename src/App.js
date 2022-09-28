@@ -2,7 +2,8 @@ import './App.css';
 import React, { Suspense } from 'react';
 import Header from './Components/Header/Header';
 import { Route, Routes } from 'react-router-dom';
-import Slider from './Components/Home/Slider';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 const Home = React.lazy(() => import('./Components/Home/Home'));
 

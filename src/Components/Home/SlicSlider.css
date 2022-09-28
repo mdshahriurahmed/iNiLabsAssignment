@@ -1,0 +1,99 @@
+.flex_slide_head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.flex_slide_head h2 {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.button_arrow {
+    padding: 21px 18px;
+    border: 1px solid #E3E2E1;
+    background-color: #fff;
+}
+
+.styled_line1 {
+    width: 150px;
+    height: 5px;
+    background-color: #FA5E01;
+    margin-bottom: 16px;
+    margin-left: 7px;
+
+}
+
+.teacher_card h3 {
+    font-weight: 600;
+    font-size: 34px;
+    margin-top: 20px;
+    color: #25201D;
+    ;
+}
+
+.teacher_card p {
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 16px;
+    color: #41403F;
+}
+
+.social_icon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 80px;
+    margin-bottom: 110px;
+}
+
+.flexible_social_icon {
+    display: flex;
+    margin-top: -340px;
+    z-index: 4;
+
+
+}
+
+.flexible_social_icon a {
+    margin-right: 30px;
+}
+
+.all_teacher_main {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 0 280px;
+    height: 130px;
+}
+
+.all_teacher_main button {
+    width: 100%;
+    border: none;
+    background-color: #FFF9F5;
+    color: #FA5E01;
+    font-weight: 600;
+    font-size: 34px;
+    height: 100%;
+}
+
+.arrowIcon {
+    margin-left: 20px;
+    fill: #FA5E01;
+}
+
+.all_teacher_main button:hover {
+
+    background-color: #FA5E01;
+    color: #FFF9F5;
+
+
+}
+
+.all_teacher_main button:hover>svg * {
+
+    fill: #FFF9F5;
+
+}
