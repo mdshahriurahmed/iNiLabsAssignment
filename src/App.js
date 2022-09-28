@@ -5,6 +5,7 @@ import { Route, Routes } from 'react-router-dom';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from './Components/Footer/Footer';
 const Home = React.lazy(() => import('./Components/Home/Home'));
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
           </Suspense>
         } ></Route>
       </Routes>
-
+      <Footer></Footer>
     </div>
   );
 }
